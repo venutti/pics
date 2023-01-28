@@ -12,7 +12,7 @@ export default function App() {
   };
 
   return (
-    <div>
+    <div className="container">
       <SearchBar onSubmit={handleSubmit} />
       <ImageList images={images} />
     </div>
